@@ -1,0 +1,8 @@
+#cloud-config
+
+users:
+  - name: adam
+    coreos-ssh-import-github: ahri
+    groups:
+      - sudo
+      - docker
